@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fraccionamiento Universidad | Lotes Residenciales en Axapusco | 7 Veces 7 Bienes Raíces</title>
+  <meta name="description"
+    content="Descubre el Fraccionamiento Universidad en Santo Domingo Aztacameca, Axapusco. Lotes tipo de 120 m² con posesión inmediata, sin buró de crédito, enganche desde $5,000 y mensualidades de $2,000 MXN. Recorre el desarrollo en 360°.">
+  <meta name="keywords"
+    content="Fraccionamiento Universidad, lotes en Axapusco, terrenos en venta Estado de México, 7 Veces 7 Bienes Raíces, terrenos sin buró, terrenos cerca UAEM, terrenos baratos edomex">
+  <meta property="og:title" content="Fraccionamiento Universidad | Tu Patrimonio en 360°">
+  <meta property="og:description"
+    content="Lotes tipo de 120 m² con posesión inmediata. Sin buró de crédito, sin comprobar ingresos. ¡Explora el Tour 360° ahora!">
+  <meta property="og:image" content="img/render_casa.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Pannellum 360 Viewer CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css">
+
+  <!-- Leaflet Map CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+
+  <!-- Estilos Principales -->
+  <link rel="stylesheet" href="style.css?v=20260918_hotspot_fix">
+</head>
+
+<body>
+
+  <!-- Top Bar Informativa -->
+  <div class="topbar">
+    <div class="container topbar-container">
+      <div class="topbar-info">
+        <span>📍 Parcela 114 P1/1, Santo Domingo Aztacameca, Axapusco, Edo. Méx.</span>
+        <span class="badge-tag">Posesión Inmediata</span>
+      </div>
+      <div class="topbar-contact">
+        <a href="tel:+525529217456" class="topbar-link">📞 Atención Directa</a>
+        <a href="https://wa.me/525529217456?text=Hola%20Santos%2C%20me%20interesa%20informaci%C3%B3n%20del%20Fraccionamiento%20Universidad"
+          target="_blank" rel="noopener" class="topbar-link whatsapp-top">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+          </svg>
+          WhatsApp Ventas
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Barra de Navegación -->
+  <header class="main-header" id="navbar">
+    <div class="container nav-container">
+      <a href="#inicio" class="brand-logo" id="logoLink">
+        <div class="logo-symbol">7×7</div>
+        <div class="logo-text">
+          <span class="company-name">7 Veces 7 Bienes Raíces</span>
+          <span class="owner-tag">Propiedad de Santos</span>
+        </div>
+      </a>
+
+      <!-- Navegación Escritorio -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#hero-tour" class="nav-link nav-highlight">
+          <span class="pulse-dot"></span> Tour 360°
+        </a>
+        <a href="#proyecto" class="nav-link">El Fraccionamiento</a>
+        <a href="#financiamiento" class="nav-link">Precios & Cotizador</a>
+        <a href="#ubicacion" class="nav-link">Ubicación & Puntos Clave</a>
+        <a href="#galeria" class="nav-link">Galería</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contacto" class="btn btn-primary btn-sm" id="btnAgendaNav">
+          <span>Agendar Visita</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menú">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================== -->
+  <!-- HERO SECTION CON PRIORIDAD ABSOLUTA: TOUR 360° INTERACTIVO -->
+  <!-- ========================================================== -->
+  <section class="hero-section" id="hero-tour">
+    <div class="hero-bg-glow"></div>
+    <div class="container hero-container">
+
+      <!-- Encabezado del Hero -->
+      <div class="hero-header-content text-center">
+        <div class="badge-pill">
+          <span class="badge-icon">🌐</span>
+          <span>Experiencia Inmersiva de Dron</span>
+        </div>
+        <h1 class="hero-title">
+          Recorre el <span class="text-gradient">Fraccionamiento Universidad</span> en 360°
+        </h1>
+        <p class="hero-subtitle">
+          Lotes residenciales tipo de <strong>120 m² (8×15m)</strong> en Santo Domingo Aztacameca, Axapusco.
+          <strong>Posesión Inmediata</strong> • Sin Buró de Crédito • Mensualidades fijas de <strong>$2,000
+            MXN</strong>.
+        </p>
+      </div>
+
+      <!-- VISOR OFICIAL DEL RECORRIDO VIRTUAL 360° CON PUNTOS DE INTERÉS -->
+      <div class="tour-viewer-wrapper" id="tourWrapper">
+
+        <!-- Barra Superior del Visor con Controles e Indicador -->
+        <div class="tour-viewer-header">
+          <div class="viewer-indicator">
+            <span class="live-dot"></span>
+            <span><strong>Recorrido 360° Interactivo</strong> • Vista Aérea Oficial</span>
+          </div>
+
+          <div class="viewer-controls-bar">
+            <button class="viewer-btn active" id="btnRotateToggle" title="Activar / Pausar Giro Automático">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67" />
+              </svg>
+              <span id="textAutoRotate">Pausar Giro</span>
+            </button>
+            <button class="viewer-btn" id="btnZoomIn" title="Acercar Vista">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+              <span>Acercar</span>
+            </button>
+            <button class="viewer-btn" id="btnZoomOut" title="Alejar Vista">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+              <span>Alejar</span>
+            </button>
+            <button class="viewer-btn" id="btnFullscreen" title="Ver en Pantalla Completa">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3" />
+              </svg>
+              <span>Pantalla Completa</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- CONTENEDOR 360 WEBGL (PANNELLUM) -->
+        <div class="sphere-tour-box">
+          <div id="panorama-container" class="panorama-box">
+            <!-- Loader -->
+            <div class="tour-loader" id="tourLoader">
+              <div class="spinner"></div>
+              <p>Cargando recorrido 360° en alta resolución...</p>
+            </div>
+
+            <!-- Hint de interacción para el usuario -->
+            <div class="tour-interaction-hint" id="tourInteractionHint">
+              <span>👆 Arrastra con el ratón o dedo para girar 360° en cualquier dirección • Toca los puntos para ver
+                información</span>
+            </div>
+
+            <!-- Tarjeta Flotante Informativa al hacer clic en un Punto de Interés -->
+            <div class="tour-info-card" id="tourInfoCard" style="display: none;">
+              <button class="tour-info-close" id="btnTourInfoClose" aria-label="Cerrar Información">&times;</button>
+              <div class="tour-info-badge-tag" id="tourInfoCategory">Punto de Interés</div>
+
+              <!-- Vista previa fotográfica de detalle -->
+              <div class="tour-info-image-box" id="tourInfoImageBox" onclick="openCurrentTourInfoLightbox()" role="button" tabindex="0" title="Clic para ampliar fotografía">
+                <img id="tourInfoImg" src="img/tour_puntos/punto1_calles_manzanas.jpg" alt="Fotografía de detalle"
+                  loading="lazy">
+                <span class="tour-info-image-badge">🔍 Clic para ampliar fotografía</span>
+              </div>
+
+              <h3 class="tour-info-title" id="tourInfoTitle">Calles y Manzanas</h3>
+              <p class="tour-info-text" id="tourInfoText">Calles niveladas de 8.00 metros de ancho y trazo de manzanas
+                con lotes tipo de 120 m².</p>
+              <div class="tour-info-specs" id="tourInfoSpecs">
+                <span>✅ Posesión Inmediata</span>
+                <span>✅ Sin Buró de Crédito</span>
+              </div>
+              <div class="tour-info-action">
+                <a href="https://wa.me/525529217456?text=Hola%20Santos%2C%20quiero%20informaci%C3%B3n%20sobre%20este%20punto%20del%20Fraccionamiento%20Universidad"
+                  target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm" id="tourInfoWaBtn">
+                  <span>Consultar por WhatsApp</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Barra Inferior: Puntos de Interés Rápidos -->
+          <div class="tour-viewer-footer">
+            <div class="tour-angles-nav">
+              <span class="angles-label">📍 Puntos de Interés Clave:</span>
+              <div class="angles-btn-group">
+                <button class="angle-btn active" data-point="calles_manzanas" data-pitch="-74.5" data-yaw="-86.2" data-hfov="80">
+                  🛣️ 1. Calles y Manzanas
+                </button>
+                <button class="angle-btn" data-point="acceso_principal" data-pitch="-44.4" data-yaw="-137.5" data-hfov="75">
+                  🚪 2. Acceso Principal
+                </button>
+                <button class="angle-btn" data-point="universidad" data-pitch="-21.5" data-yaw="-111.4" data-hfov="80">
+                  🎓 3. Campus Univ. UAEM
+                </button>
+                <button class="angle-btn" data-point="poblado" data-pitch="-14.9" data-yaw="-15.0" data-hfov="80">
+                  🏘️ 4. Santo Domingo Aztacameca
+                </button>
+                <button class="angle-btn" data-point="deportivo_escuelas" data-pitch="-24.0" data-yaw="-24.0" data-hfov="75">
+                  ⚽ 5. Prepa., Sec. y Deportivo
+                </button>
+                <button class="angle-btn" data-point="acceso_pueblo_desarrollo" data-pitch="-13.6" data-yaw="104.7" data-hfov="80">
+                  🛣️ 6. Acceso Pueblo y Desarrollo
+                </button>
+              </div>
+            </div>
+            <a href="#financiamiento" class="btn btn-emerald btn-sm">
+              <span>Cotizar mi Lote</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Botones de Acción Inmediata bajo el Tour -->
+      <div class="hero-actions-row">
+        <a href="#financiamiento" class="btn btn-primary btn-lg">
+          <span>Ver Planes de Pago y Cotizador</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+        <a href="https://wa.me/525529217456?text=Hola%20Santos%2C%20acabo%20de%20ver%20el%20Tour%20360%20del%20Fraccionamiento%20Universidad%20y%20quiero%20agendar%20una%20visita%20al%20terreno."
+          target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+          </svg>
+          <span>Agendar Visita al Predio</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================== -->
+  <!-- BARRA DE CIFRAS Y GARANTÍAS CLAVE -->
+  <!-- ========================================================== -->
+  <section class="stats-ribbon">
+    <div class="container stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">147</div>
+        <div class="stat-label">Lotes Totales en 4 Manzanas</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">120 m²</div>
+        <div class="stat-label">Lote Tipo (8.00m × 15.00m)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">$5,000</div>
+        <div class="stat-label">Enganche Inicial Accesible</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">$2,000</div>
+        <div class="stat-label">Mensualidad Fija Sin Intereses</div>
+      </div>
+      <div class="stat-card stat-card-highlight">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Posesión Inmediata & Asesoría</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================== -->
+  <!-- SOBRE EL PROYECTO & PROPUESTA DE VALOR -->
+  <!-- ========================================================== -->
+  <section class="section project-section" id="proyecto">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Desarrollo Habitacional</span>
+        <h2 class="section-title">Construye tu Patrimonio en el Lugar Ideal</h2>
+        <p class="section-description">
+          El <strong>Fraccionamiento Universidad</strong> es un desarrollo campestre-residencial comercializado
+          formalmente por <strong>7 Veces 7 Bienes Raíces</strong> (propiedad de Santos). Diseñado para familias y
+          trabajadores que buscan dejar de pagar renta o asegurar una inversión con alta plusvalía a corto y mediano
+          plazo.
+        </p>
+      </div>
+
+      <!-- Grid de Características -->
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🚫📊</div>
+          <h3>Cero Buró de Crédito</h3>
+          <p>No revisamos tu historial crediticio. La oportunidad de tener tu terreno es directa, sin intermediarios
+            bancarios ni filtros engorrosos.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">💼📄</div>
+          <h3>Sin Comprobar Ingresos</h3>
+          <p>Aceptamos comerciantes, profesionistas independientes y empleados. Solo necesitas tu identificación y el
+            deseo de consolidar tu patrimonio.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🔑🏡</div>
+          <h3>Posesión Inmediata</h3>
+          <p>Desde el primer pago y firma de tu contrato, tienes la posesión física de tu lote para comenzar a
+            proyectar, cercar o edificar tu hogar.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🛣️📐</div>
+          <h3>Vialidades Amplias de 8m</h3>
+          <p>Trazo vial nivelado con motoniveladora. Contempla arroyo vehicular de 6.00 m y dos banquetas peatonales de
+            1.00 m en cada acera.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">⚖️📑</div>
+          <h3>Certeza y Apoyo Jurídico</h3>
+          <p>Predio Parcela 114 P1/1 debidamente identificado con colindancias y plano topográfico de lotificación
+            formal para tu total tranquilidad.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📈🎓</div>
+          <h3>Plusvalía Universitaria</h3>
+          <p>Ubicación privilegiada cerca de centros de educación superior y vías regionales, asegurando que tu terreno
+            multiplique su valor comercial.</p>
+        </div>
+      </div>
+
+      <!-- Comparativa: Dejar de Pagar Renta vs Comprar tu Terreno -->
+      <div class="compare-box">
+        <div class="compare-col compare-rent">
+          <div class="compare-header">
+            <span class="compare-badge badge-red">La Realidad de Rentar</span>
+            <h4>Pagar Renta ($2,000 - $3,500/mes)</h4>
+          </div>
+          <ul class="compare-list">
+            <li>❌ Dinero gastado que nunca vuelve a tu bolsillo.</li>
+            <li>❌ Incertidumbre de aumentos continuos o desalojos.</li>
+            <li>❌ No puedes remodelar ni construir a tu gusto.</li>
+            <li>❌ Al final de los años, no dejas ningún bien a tus hijos.</li>
+          </ul>
+        </div>
+
+        <div class="compare-divider">
+          <span>VS</span>
+        </div>
+
+        <div class="compare-col compare-buy">
+          <div class="compare-header">
+            <span class="compare-badge badge-green">Invertir en Fraccionamiento Universidad</span>
+            <h4>Tu Lote Propio ($2,000/mes Fijos)</h4>
+          </div>
+          <ul class="compare-list">
+            <li>✅ Cada peso aportado construye tu patrimonio familiar.</li>
+            <li>✅ Mensualidad congelada y fija sin sorpresas financieras.</li>
+            <li>✅ Construyes tu casa a tu gusto, ritmo y necesidades.</li>
+            <li>✅ Plusvalía garantizada por el crecimiento de la zona.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Distribución de Manzanas Resumen -->
+      <div class="manzanas-summary">
+        <div class="manzanas-header">
+          <h3>Distribución Técnica del Polígono (30,120.33 m²)</h3>
+          <p>Área vendible: 19,994.68 m² (66.38%) | Área de vialidades: 10,125.65 m² (33.62%)</p>
+        </div>
+        <div class="manzanas-chips">
+          <div class="m-chip">
+            <span class="m-num">Manzana 01</span>
+            <span class="m-lots">44 Lotes</span>
+            <span class="m-area">6,403.55 m²</span>
+          </div>
+          <div class="m-chip">
+            <span class="m-num">Manzana 02</span>
+            <span class="m-lots">43 Lotes</span>
+            <span class="m-area">5,372.08 m²</span>
+          </div>
+          <div class="m-chip">
+            <span class="m-num">Manzana 03</span>
+            <span class="m-lots">27 Lotes</span>
+            <span class="m-area">4,122.69 m²</span>
+          </div>
+          <div class="m-chip">
+            <span class="m-num">Manzana 04</span>
+            <span class="m-lots">33 Lotes</span>
+            <span class="m-area">4,096.36 m²</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================== -->
+  <!-- COTIZADOR INTERACTIVO DE FINANCIAMIENTO -->
+  <!-- ========================================================== -->
+  <section class="section calc-section" id="financiamiento">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Transparencia Total</span>
+        <h2 class="section-title">Cotizador Interactivo de Financiamiento</h2>
+        <p class="section-description">
+          Elige la modalidad que mejor se adapte a tu bolsillo. Personaliza tu enganche y calcula tu plan en segundos.
+        </p>
+      </div>
+
+      <div class="calculator-card">
+
+        <!-- Toggle Contado vs Financiado -->
+        <div class="calc-mode-toggle">
+          <button class="toggle-btn active" id="btnModeFinanciado" type="button">
+            <span>✨ Modalidad Financiada</span>
+            <small>Enganche $5,000 + $2,000 al mes</small>
+          </button>
+          <button class="toggle-btn" id="btnModeContado" type="button">
+            <span>💰 Modalidad Contado</span>
+            <small>Ahorra $20,000 de descuento</small>
+          </button>
+        </div>
+
+        <div class="calc-body">
+          <!-- Columna Izquierda: Parámetros -->
+          <div class="calc-inputs">
+
+            <div class="input-group">
+              <label for="tipoLote">Tipo de Terreno / Dimensiones</label>
+              <div class="readonly-box">
+                <strong>Lote Residencial Tipo: 120.00 m²</strong>
+                <span>Frente: 8.00 m • Fondo: 15.00 m</span>
+              </div>
+            </div>
+
+            <!-- Slider de Enganche (solo financiado) -->
+            <div class="input-group" id="groupEnganche">
+              <div class="label-row">
+                <label for="sliderEnganche">Enganche Inicial:</label>
+                <span class="highlight-val" id="valEngancheDisplay">$5,000 MXN</span>
+              </div>
+              <input type="range" id="sliderEnganche" min="5000" max="40000" step="1000" value="5000"
+                class="custom-slider">
+              <div class="slider-ticks">
+                <span>Mín. $5,000</span>
+                <span>$20,000</span>
+                <span>$40,000</span>
+              </div>
+            </div>
+
+            <!-- Facilidades Destacadas -->
+            <div class="calc-perks">
+              <div class="perk-item">✔ Sin consulta en Buró de Crédito</div>
+              <div class="perk-item">✔ Sin comprobante formal de ingresos</div>
+              <div class="perk-item">✔ Mensualidades fijas congeladas</div>
+              <div class="perk-item">✔ Posesión y entrega inmediata</div>
+            </div>
+
+          </div>
+
+          <!-- Columna Derecha: Resumen de Cotización -->
+          <div class="calc-results">
+            <div class="result-title">Resumen de tu Inversión</div>
+
+            <div class="result-row">
+              <span class="res-label">Precio Total del Lote:</span>
+              <span class="res-val" id="resPrecioTotal">$120,000 MXN</span>
+            </div>
+
+            <div class="result-row">
+              <span class="res-label">Precio por metro cuadrado:</span>
+              <span class="res-val" id="resPrecioM2">$1,000.00 MXN/m²</span>
+            </div>
+
+            <div class="result-row highlight-row" id="rowEnganche">
+              <span class="res-label">Enganche para Apartar y Posesión:</span>
+              <span class="res-val text-emerald" id="resEnganche">$5,000 MXN</span>
+            </div>
+
+            <div class="result-row" id="rowSaldo">
+              <span class="res-label">Saldo a Financiar:</span>
+              <span class="res-val" id="resSaldo">$115,000 MXN</span>
+            </div>
+
+            <div class="result-row highlight-row" id="rowMensualidad">
+              <span class="res-label">Mensualidad Fija:</span>
+              <span class="res-val text-emerald text-xl" id="resMensualidad">$2,000 MXN</span>
+            </div>
+
+            <div class="result-row" id="rowPlazo">
+              <span class="res-label">Plazo Estimado:</span>
+              <span class="res-val" id="resPlazo">57.5 meses (~4.8 años)</span>
+            </div>
+
+            <div class="result-savings text-center" id="boxAhorro" style="display: none;">
+              🎉 ¡Te estás ahorrando <strong>$20,000 MXN</strong> por pago de contado directo!
+            </div>
+
+            <!-- Botón WhatsApp Dinámico -->
+            <a href="#" id="btnCotizarWhatsapp" target="_blank" rel="noopener" class="btn btn-whatsapp btn-block">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+              </svg>
+              <span>Apartar Lote con esta Cotización</span>
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================== -->
+  <!-- UBICACIÓN ESTRATÉGICA & PUNTOS DE INTERÉS -->
+  <!-- ========================================================== -->
+  <section class="section location-section" id="ubicacion">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Ubicación Privilegiada</span>
+        <h2 class="section-title">Conectividad y Plusvalía en Axapusco</h2>
+        <p class="section-description">
+          Situado en <strong>Santo Domingo Aztacameca, Municipio de Axapusco, Estado de México</strong> en las
+          coordenadas exactas <code>19.771468, -98.770131</code>, con conexión directa a la Ciudad del Conocimiento,
+          centros comerciales, hospitales y autopistas hacia la Ciudad de México y Pachuca.
+        </p>
+      </div>
+
+      <!-- Mapa Interactivo + Puntos de Interés -->
+      <div class="location-layout">
+
+        <!-- Mapa Leaflet / OpenStreetMap -->
+        <div class="map-card">
+          <div class="map-header">
+            <span class="map-status">📍 Coordenadas Oficiales: 19.771468, -98.770131</span>
+            <a href="https://maps.google.com/?q=19.771468,-98.770131" target="_blank" rel="noopener"
+              class="map-external-link">
+              Abrir en Google Maps ↗
+            </a>
+          </div>
+          <div id="interactiveMap" class="map-box"></div>
+          <div class="map-footer-notes">
+            <span>Colindancias: Parcela 501, Parcela 606 y Parcela 200. Predio plano de suelo firme.</span>
+          </div>
+        </div>
+
+        <!-- Lista de Puntos de Interés -->
+        <div class="pois-card">
+          <h3>Puntos Clave & Conectividad del Entorno</h3>
+          <p class="pois-intro">Una ubicación en constante desarrollo que garantiza plusvalía inmediata y habitabilidad:
+          </p>
+
+          <div class="poi-list">
+            <div class="poi-item">
+              <div class="poi-icon">🎓</div>
+              <div class="poi-content">
+                <strong>Ciudad del Conocimiento & Campus Universitario</strong>
+                <p>Cercanía a instalaciones de educación superior (UAEM / UAEH), convirtiendo el desarrollo en un polo
+                  de inversión ideal para vivienda o cuartos de renta para estudiantes.</p>
+              </div>
+            </div>
+
+            <div class="poi-item">
+              <div class="poi-icon">🏥</div>
+              <div class="poi-content">
+                <strong>Hospital Regional & Centros de Salud</strong>
+                <p>Acceso rápido a centros médicos, clínicas y servicios de emergencia de la región Axapusco - Otumba -
+                  Teotihuacán.</p>
+              </div>
+            </div>
+
+            <div class="poi-item">
+              <div class="poi-icon">🛍️</div>
+              <div class="poi-content">
+                <strong>Comercios & Plaza Universidad</strong>
+                <p>Comercios de abasto, tiendas de conveniencia, mercados tradicionales y plazas comerciales para
+                  abastecer todas tus necesidades cotidianas.</p>
+              </div>
+            </div>
+
+            <div class="poi-item">
+              <div class="poi-icon">⚽</div>
+              <div class="poi-content">
+                <strong>Centro Cívico, Deportivo & Parroquias</strong>
+                <p>Espacios comunitarios de recreación, campos deportivos, plazas públicas y eventos cívicos en Santo
+                  Domingo Aztacameca.</p>
+              </div>
+            </div>
+
+            <div class="poi-item">
+              <div class="poi-icon">🛣️</div>
+              <div class="poi-content">
+                <strong>Salidas Viales Estratégicas (CDMX y Pachuca)</strong>
+                <p>Conexión ágil a la autopista México-Tulancingo, Pirámides-Tulancingo, permitiendo traslados rápidos
+                  hacia CDMX, Pachuca, Otumba y Texcoco.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================== -->
+  <!-- GALERÍA MULTIMEDIA: TOMAS DE DRON Y RENDERS ARQUITECTÓNICOS -->
+  <!-- ========================================================== -->
+  <section class="section gallery-section" id="galeria">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Visualiza tu Proyecto</span>
+        <h2 class="section-title">Galería de Tomas Reales y Proyección Futura</h2>
+        <p class="section-description">
+          Comprueba el estado real de la nivelación de calles con dron y visualiza el potencial arquitectónico de tu
+          futura residencia en un lote de 120 m².
+        </p>
+      </div>
+
+      <!-- Filtros de Galería -->
+      <div class="gallery-filters text-center">
+        <button class="filter-btn active" data-filter="all">Todas las Imágenes</button>
+        <button class="filter-btn" data-filter="dron">Tomas de Dron Reales</button>
+        <button class="filter-btn" data-filter="render">Renders & Estilo de Vida</button>
+      </div>
+
+      <!-- Grid de Galería -->
+      <div class="gallery-grid" id="galleryGrid">
+
+        <!-- TOMA DE DRON 1: Vista Cenital del Trazo -->
+        <div class="gallery-item" data-category="dron">
+          <div class="gallery-card"
+            onclick="openLightbox('img/dron_ortofoto_trazo.jpg', 'Vista Aérea Cenital: Trazo y Nivelación de Vialidades', 'Toma aérea real de dron documentando el trazo y nivelación de calles de 8.00 metros y la división de manzanas residenciales.')">
+            <img src="img/dron_ortofoto_trazo.jpg" alt="Vista aérea cenital del trazo y nivelación del fraccionamiento"
+              loading="lazy">
+            <div class="gallery-overlay">
+              <span class="overlay-tag" style="background:#0284c7;">🛸 Toma Aérea Real</span>
+              <h4>Trazo y Nivelación de Calles</h4>
+              <p>Vista cenital de vialidades niveladas y manzanas 120 m²</p>
+              <span class="overlay-icon">🔍 Ampliar Foto Real</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- TOMA DE DRON 2: Perspectiva hacia el Poblado -->
+        <div class="gallery-item" data-category="dron">
+          <div class="gallery-card"
+            onclick="openLightbox('img/dron_vista_poblado.jpg', 'Perspectiva Aérea: Conectividad con Santo Domingo Aztacameca', 'Fotografía aérea real de dron capturando la cercanía con el poblado, equipamiento urbano, canchas deportivas y servicios.')">
+            <img src="img/dron_vista_poblado.jpg"
+              alt="Perspectiva aérea hacia Santo Domingo Aztacameca y entorno urbano" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="overlay-tag" style="background:#0284c7;">🛸 Toma Aérea Real</span>
+              <h4>Vista hacia Poblado y Servicios</h4>
+              <p>Cercanía inmediata a escuelas, comercios y áreas deportivas</p>
+              <span class="overlay-icon">🔍 Ampliar Foto Real</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- TOMA DE DRON 3: Panorámica del Valle y Carretera -->
+        <div class="gallery-item" data-category="dron">
+          <div class="gallery-card"
+            onclick="openLightbox('img/dron_panoramica_valle.jpg', 'Panorámica Aérea: Entorno Regional y Vías de Acceso', 'Toma aérea real en perspectiva panorámica mostrando la topografía plana del predio, su entorno natural y conexión vial.')">
+            <img src="img/dron_panoramica_valle.jpg" alt="Panorámica aérea del valle y acceso a carretera principal"
+              loading="lazy">
+            <div class="gallery-overlay">
+              <span class="overlay-tag" style="background:#0284c7;">🛸 Toma Aérea Real</span>
+              <h4>Amplitud y Conectividad Regional</h4>
+              <p>Topografía 100% plana con acceso directo a vías principales</p>
+              <span class="overlay-icon">🔍 Ampliar Foto Real</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Render 1: Casa Fachada -->
+        <div class="gallery-item" data-category="render">
+          <div class="gallery-card"
+            onclick="openLightbox('img/render_casa.jpg', 'Proyección Arquitectónica: Residencia Contemporánea', 'Diseño conceptual sugerido para construir en un lote tipo de 120 m² (8m de frente por 15m de fondo).')">
+            <img src="img/render_casa.jpg" alt="Render de casa moderna en lote de 120m2" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="overlay-tag">Proyección Arquitectónica</span>
+              <h4>Residencia Contemporánea Tipo</h4>
+              <p>Diseño sugerido en lote tipo de 120 m² (8×15m)</p>
+              <span class="overlay-icon">🔍 Ampliar Proyección</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Render 2: Vida Familiar -->
+        <div class="gallery-item" data-category="render">
+          <div class="gallery-card"
+            onclick="openLightbox('img/render_familia.jpg', 'Estilo de Vida: Tranquilidad Familiar', 'Espacios privados al aire libre, jardín trasero y tranquilidad garantizada para tu familia en suelo propio.')">
+            <img src="img/render_familia.jpg" alt="Estilo de vida familiar en jardín de casa propia" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="overlay-tag">Estilo de Vida</span>
+              <h4>Jardín Privado Familiar</h4>
+              <p>Espacios amplios y confort para tu familia</p>
+              <span class="overlay-icon">🔍 Ampliar Proyección</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Render 3: Interior Contemporáneo -->
+        <div class="gallery-item" data-category="render">
+          <div class="gallery-card"
+            onclick="openLightbox('img/render_interior.jpg', 'Interiores Iluminados: Sala y Comedor', 'Distribución moderna y eficiente de espacios en una residencia unifamiliar dentro de Fraccionamiento Universidad.')">
+            <img src="img/render_interior.jpg" alt="Interiores modernos de casa en Fraccionamiento Universidad"
+              loading="lazy">
+            <div class="gallery-overlay">
+              <span class="overlay-tag">Interiorismo Proyectado</span>
+              <h4>Interiores Confortables</h4>
+              <p>Diseño interior óptimo con iluminación natural</p>
+              <span class="overlay-icon">🔍 Ampliar Proyección</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- MODAL LIGHTBOX PARA LA GALERÍA -->
+  <div id="lightboxModal" class="lightbox-modal" onclick="closeLightbox(event)">
+    <div class="lightbox-content">
+      <button class="lightbox-close" onclick="closeLightbox(event)" aria-label="Cerrar Imagen">&times;</button>
+      <img id="lightboxImg" src="" alt="Ampliación de fotografía">
+      <div class="lightbox-caption">
+        <h4 id="lightboxTitle"></h4>
+        <p id="lightboxDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================== -->
+  <!-- CONTACTO DIRECTO & AGENDAR VISITA AL PREDIO -->
+  <!-- ========================================================== -->
+  <section class="section contact-section" id="contacto">
+    <div class="container">
+
+      <div class="contact-card-wrapper">
+        <div class="contact-grid">
+
+          <!-- Columna Info Santos / 7 Veces 7 -->
+          <div class="contact-info-col">
+            <span class="badge-tag">Atención Personalizada</span>
+            <h2 class="contact-title">¿Listo para Conocer tu Próximo Terreno?</h2>
+            <p class="contact-desc">
+              En <strong>7 Veces 7 Bienes Raíces</strong> te atendemos de forma directa y personalizada. Nuestro equipo
+              y su titular, <strong>Santos</strong>, te acompañarán en un recorrido guiado por el predio para que elijas
+              tu manzana y lote ideal.
+            </p>
+
+            <div class="direct-contacts">
+              <div class="direct-item">
+                <div class="direct-icon">👤</div>
+                <div>
+                  <strong>Titular / Propietario:</strong>
+                  <p>Santos — 7 Veces 7 Bienes Raíces</p>
+                </div>
+              </div>
+
+              <div class="direct-item">
+                <div class="direct-icon">📍</div>
+                <div>
+                  <strong>Ubicación del Desarrollo:</strong>
+                  <p>Parcela 114 P1/1, Santo Domingo Aztacameca, Axapusco, Edo. Méx.</p>
+                </div>
+              </div>
+
+              <div class="direct-item">
+                <div class="direct-icon">💬</div>
+                <div>
+                  <strong>WhatsApp Oficial:</strong>
+                  <p><a href="https://wa.me/525529217456" target="_blank" rel="noopener" class="link-emerald">Enviar
+                      mensaje inmediato</a></p>
+                </div>
+              </div>
+
+              <div class="direct-item">
+                <div class="direct-icon">🕒</div>
+                <div>
+                  <strong>Horarios de Visita Guiada:</strong>
+                  <p>Lunes a Domingo (Previa Cita Telefónica o por WhatsApp)</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-guarantee-badge">
+              <span>🛡️ Posesión Inmediata con Respaldo Jurídico y Firma de Contrato</span>
+            </div>
+          </div>
+
+          <!-- Columna Formulario de Contacto / Agenda -->
+          <div class="contact-form-col">
+            <div class="form-box">
+              <h3>Agenda tu Visita Guiada</h3>
+              <p class="form-sub">Completa los datos y se abrirá WhatsApp con tu solicitud lista para enviar a Santos.
+              </p>
+
+              <form id="contactForm" onsubmit="handleFormSubmit(event)">
+                <div class="form-group">
+                  <label for="formNombre">Nombre Completo *</label>
+                  <input type="text" id="formNombre" required placeholder="Ej. Juan Pérez" class="form-control">
+                </div>
+
+                <div class="form-group">
+                  <label for="formTelefono">Teléfono o WhatsApp *</label>
+                  <input type="tel" id="formTelefono" required placeholder="Ej. 55 1234 5678" class="form-control">
+                </div>
+
+                <div class="form-group">
+                  <label for="formModalidad">Modalidad de tu Interés</label>
+                  <select id="formModalidad" class="form-control">
+                    <option value="Financiamiento ($5,000 enganche + $2,000/mes)">Financiamiento ($5,000 enganche +
+                      $2,000/mes)</option>
+                    <option value="Contado ($100,000 con descuento)">Contado ($100,000 con descuento de $20k)</option>
+                    <option value="Solo solicitar informes generales">Solo solicitar informes generales</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="formDia">Día tentativo para visitar el terreno</label>
+                  <input type="date" id="formDia" class="form-control">
+                </div>
+
+                <div class="form-group">
+                  <label for="formMensaje">Preguntas o Comentarios adicionales</label>
+                  <textarea id="formMensaje" rows="3" placeholder="Ej. Me interesa un lote en la Manzana 01..."
+                    class="form-control"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-whatsapp btn-block btn-lg">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                  </svg>
+                  <span>Enviar Solicitud a Santos por WhatsApp</span>
+                </button>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================== -->
+  <!-- FOOTER INSTITUCIONAL -->
+  <!-- ========================================================== -->
+  <footer class="main-footer">
+    <div class="container footer-container">
+      <div class="footer-brand-col">
+        <div class="footer-logo">
+          <span class="footer-logo-badge">7×7</span>
+          <span class="footer-company">7 Veces 7 Bienes Raíces</span>
+        </div>
+        <p class="footer-tagline">Comercializadora inmobiliaria especializada en oportunidades patrimoniales accesibles
+          en el Estado de México. Propiedad y administración de Santos.</p>
+        <p class="footer-coords">📍 Coordenadas: 19.771468, -98.770131 • Santo Domingo Aztacameca, Axapusco.</p>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Secciones Rápidas</h4>
+        <ul>
+          <li><a href="#hero-tour">Tour Virtual 360°</a></li>
+          <li><a href="#proyecto">Características del Desarrollo</a></li>
+          <li><a href="#financiamiento">Cotizador de Financiamiento</a></li>
+          <li><a href="#ubicacion">Ubicación y Puntos de Interés</a></li>
+          <li><a href="#galeria">Galería de Fotos & Renders</a></li>
+          <li><a href="#contacto">Contacto Directo</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-legal-col">
+        <h4>Ficha Técnica Resumen</h4>
+        <p><strong>Superficie Total:</strong> 30,120.33 m²</p>
+        <p><strong>Total de Lotes:</strong> 147 Lotes tipo 120 m²</p>
+        <p><strong>Vialidades:</strong> 8.00 m de sección vial</p>
+        <p><strong>Régimen:</strong> Parcela en plano de lotificación formal con promesa de posesión inmediata y soporte
+          jurídico.</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-content">
+        <p>© 2026 7 Veces 7 Bienes Raíces. Todos los derechos reservados. Fraccionamiento Universidad.</p>
+        <p class="hosted-tag">Optimizada para GitHub Pages</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================== -->
+  <!-- BOTÓN FLOTANTE PERSISTENTE DE WHATSAPP -->
+  <!-- ========================================================== -->
+  <a href="https://wa.me/525529217456?text=Hola%20Santos%2C%20vi%20la%20p%C3%A1gina%20del%20Fraccionamiento%20Universidad%20y%20quiero%20m%C3%A1s%20informaci%C3%B3n."
+    target="_blank" rel="noopener" class="float-whatsapp" id="floatWhatsapp" aria-label="Contactar por WhatsApp">
+    <div class="float-whatsapp-pulse"></div>
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+      <path
+        d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+    </svg>
+    <span class="float-tooltip">¿Dudas? ¡Escríbenos a WhatsApp!</span>
+  </a>
+
+  <!-- Scripts -->
+  <!-- Pannellum 360 Viewer JS -->
+  <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
+  <!-- Leaflet Map JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <!-- Lógica y Cotizador -->
+  <script src="script.js?v=20260918_final"></script>
+</body>
+
+</html>
